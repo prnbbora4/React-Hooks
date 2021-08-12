@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
                 <p> <NavLink to="/CompoB"> 14. CustomHook ex2 </NavLink> </p>
                 <p> <NavLink to="/Login"> 15. React Toastify </NavLink> </p>
             </div>
+            <Footer />
         </div>
     )
 }
