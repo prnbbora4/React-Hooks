@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../Forms/basicForm.css'
 import logo from "../Forms/login_logo.png";
-import NavLink from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const BasicForm = () => {
 
