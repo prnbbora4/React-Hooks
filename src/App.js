@@ -4,7 +4,6 @@ import AllHooks from './Components/AllHooks';
 import BasicTodoOne from './Components/BasicTodoOne';
 import CompoA from './Components/CustomHook/CompoA';
 import CompoB from './Components/CustomHook/CompoB';
-import Footer from './Components/Footer';
 import BasicForm from './Components/Forms/BasicForm';
 import UncontrolledForm from './Components/Forms/UncontrolledForm';
 import Home from './Components/Home';

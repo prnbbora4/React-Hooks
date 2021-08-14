@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../Forms/basicForm.css'
 import logo from "../Forms/login_logo.png";
+import NavLink from "react-router-dom";
 
 const BasicForm = () => {
 
@@ -34,7 +35,7 @@ const BasicForm = () => {
 
                     {/* Icon */}
                     <div className="fadeIn first">
-                        <img src={logo} id="icon" alt="User Icon" />
+                        <img src={logo} id="icon" alt="UserIcon" />
                     </div>
 
                     {/* Login Form */}
@@ -54,7 +55,7 @@ const BasicForm = () => {
 
                     {/* Remind Passowrd */}
                     <div id="formFooter">
-                        <a className="underlineHover" href="#">Forgot Password?</a>
+                        <NavLink className="underlineHover" to="#">Forgot Password?</NavLink>
                     </div>
 
                 </div>
