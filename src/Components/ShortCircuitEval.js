@@ -2,6 +2,12 @@ import React, {useState} from 'react'
 
 const ShortCircuitEval = () => {
     const [demo, setDemo] = useState('')
+    // console.log(setDemo());
+
+    const test = () => {
+        setDemo()
+    }
+    
     return (
         <div>
             {/* or operator */}
@@ -14,6 +20,8 @@ const ShortCircuitEval = () => {
 
             {/* and operator */}
             <h1> { demo && "pranab" } </h1>
+
+            <button className="btn btn-primary" onClick={test}>Click</button>
         </div>
     )
 }
