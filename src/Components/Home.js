@@ -15,7 +15,7 @@ const Home = () => {
                 <p> <NavLink to="/BasicForm"> 6. BasicForm </NavLink> </p>
                 <p> <NavLink to="/UseEffect1"> 7. UseEffect Ex-1 </NavLink> </p>
                 <p> <NavLink to="/UseEffect2"> 8. UseEffect Ex-2 </NavLink> </p>
-                <p> <NavLink to="/UseEffectApi"> 9. UseEffectApi </NavLink> </p>
+                <p> <NavLink to="/UseEffectApi"> 9. UseEffectApi GitHub Users </NavLink> </p>
                 <p> <NavLink to="/UncontrolledForm"> 10. UncontrolledForm </NavLink> </p>
                 <p> <NavLink to="/UseReducer"> 11. UseReducer </NavLink> </p>
                 <p> <NavLink to="/UseContext"> 12. UseContext </NavLink> </p>

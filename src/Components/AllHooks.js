@@ -16,6 +16,7 @@ const AllHooks = () => {
                 <h3>useLocation</h3>
                 <h3>useHistory</h3>
                 <h1>React-Toastify</h1>
+                <h1>React-Icons</h1>
             </div>
         </>
     )
